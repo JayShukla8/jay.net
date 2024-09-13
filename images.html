@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search Images</title>
+        <link rel="stylesheet" href="styles.css">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+        <link rel="icon" href="images/globe.ico" type="image/x-icon">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <a href="index.html" class="nav-item">Back to Search</a> 
+                <a href="advanced_search.html" class="nav-item">Advanced Search</a>
+            </div>
+            <div class="center-div">
+                <image style="margin-top: 100px;" src="images/logo2.png" alt="website logo">
+            </div>   
+            <form action="https://google.com/search" method="get">
+            <div>
+                <input type="text" name="q" class="sbar" value="">
+                <input type="hidden" name="udm" value="2">
+            </div>
+            <div class="center-div">
+                <div style="padding-top: 14px;">
+                    <input type="submit" value="Image Search" class="sbutton">
+                </div>    
+            </div>
+        </div>
+        </form>
+    </body>
+</html>

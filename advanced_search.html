@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="styles.css">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+        <link rel="icon" href="images/globe.ico" type="image/x-icon">
+    </head>
+    <body>  
+
+        <div class="container">
+
+            <div class="navbar">
+                <a href="index.html" class="nav-item">Back to Search</a>
+            </div>
+
+            <div class="appbar">
+                <label style="margin-left: 10px;">Advanced Search</label>
+            </div>
+
+            <div class="hline"></div>
+
+            <div class="subcontainer">
+
+                <div class="subheading">Find pages with...</div>
+                
+                <form action="https://google.com/search" method="get">
+
+                    <div class="row-input">
+                        <div class="left">
+                            <label>all these words:</label>
+                        </div>
+                        <div>
+                            <input type="text" name="as_q" class="form-input" value="">
+                        </div>
+                    </div>
+
+                    <div class="row-input">
+                        <div class="left">
+                            <label>this exact word or phrase:</label>
+                        </div>
+                        <div>
+                            <input type="text" name="as_oq" class="form-input" value="">
+                        </div>
+                    </div>
+
+                    <div class="row-input">
+                        <div class="left">
+                            <label>any of these words:</label>
+                        </div>
+                        <div>
+                            <input type="text" name="as_epq" class="form-input" value="">
+                        </div>
+                    </div>
+
+                    <div class="row-input">
+                        <div class="left">
+                            <label>none of these words:</label>
+                        </div>
+                        <div>
+                            <input type="text" name="as_eq" class="form-input" value="">
+                        </div>
+                    </div>
+
+                    <div class="row-input">
+                        <div class="left"></div>
+                        <div class="btn">
+                            <input type="submit" value="Advanced Search" class="btn-advanced">
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div class="hline"></div>
+
+        </div>
+
+    </body>
+</html>
