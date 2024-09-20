@@ -21,13 +21,15 @@ The site is built using HTML and CSS only.
   A blue "Advanced Search" button with white text, consistent with Google's design.
   A navigation link to return to the Google Search page.
 
-# Project Screenshots
+# Demonstration
+- for a live demo of website, watch this [video](https://youtu.be/I94g1TPYSEI).
+- Also here's a website screenshot
 ![image](https://github.com/user-attachments/assets/bcf33562-b911-4cc1-ace2-9e053d909c83)
 
 # Acknowledgments
 Inspired by the design and functionality of Google.
 Built as part of a CS50W project assignment for learning HTML and CSS.
-Special Thanks to Prof. Brian Yu for being an awesome teacher.
+Special Thanks to [Mr. Brian Yu](https://github.com/brianyu28) for being an awesome teacher.
 
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
